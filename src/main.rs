@@ -20,23 +20,23 @@ use crypto::aesgcm::{
     decode, derive_shared_secret, generate_keypair, vec_u8_to_u8_32
 };
 
-// include!(concat!(env!("OUT_DIR"), "/init.rs"));
+include!(concat!(env!("OUT_DIR"), "/init.rs"));
 
 // http
-pub fn init() -> (
-    &'static str,
-    &'static str,
-    u16,
-    u64,
-    u64,
-    &'static str,
-    &'static str,
-    &'static str,
-    &'static str,
-    &'static str,
-) {
-    ("http", "127.0.0.1", 8081, 3, 1, "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0", "", "", "", "474b89a2f95dd5909866188fcc915d248ff799ac0b227b928581f1a6645db856")
-}
+// pub fn init() -> (
+//     &'static str,
+//     &'static str,
+//     u16,
+//     u64,
+//     u64,
+//     &'static str,
+//     &'static str,
+//     &'static str,
+//     &'static str,
+//     &'static str,
+// ) {
+//     ("http", "127.0.0.1", 8081, 3, 1, "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0", "", "", "", "474b89a2f95dd5909866188fcc915d248ff799ac0b227b928581f1a6645db856")
+// }
 
 // https
 // pub fn init() -> (
