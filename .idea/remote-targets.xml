@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="root@192.168.186.128:22" type="ssh/sftp" uuid="d963b655-4bed-46a5-ad9e-7b064f8c6d84">
+        <config>
+          <option name="projectRootOnTarget" value="/root/implants" />
+          <option name="serverName" value="root@192.168.186.128:22 password" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
