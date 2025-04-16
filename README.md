@@ -2,6 +2,15 @@
 
 由纯 Rust 实现的 C2。
 
+# GUI版本预览
+
+目前还是命令行，GUI的在改进中。
+
+![](assets/1.png)
+![](assets/2.png)
+![](assets/3.png)
+![](assets/4.png)
+
 # Contributors
 
 <a href="https://github.com/Qi4l-Labs/Fusion/graphs/contributors">
