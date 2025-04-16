@@ -5,7 +5,7 @@
 # Contributors
 
 <a href="https://github.com/Qi4l-Labs/Fusion/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Qi4l-Labs/Fusion" />
+  <img src="https://contrib.rocks/image?repo=Qi4l-Labs/Fusion"/>
 </a>
 
 # 免责声明
