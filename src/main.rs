@@ -51,7 +51,7 @@ include!(concat!(env!("OUT_DIR"), "/init.rs"));
 //     &'static str,
 //     &'static str,
 // ) {
-//     ("https", "127.0.0.1", 4433, 1, 5, "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0", "", "", "", "609181983959886d1e8f1e07c6ed19e2063c46887454ff351962d8a88d0ea54e")
+//     ("https", "127.0.0.1", 4433, 1, 5, "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.1", "", "", "", "609181983959886d1e8f1e07c6ed19e2063c46887454ff351962d8a88d0ea54e")
 // }
 
 #[tokio::main]
