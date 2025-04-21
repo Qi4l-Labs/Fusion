@@ -1,8 +1,18 @@
-# Fusion
+<h1 align="center"> Fusion </h1>
 
-由纯 Rust 实现的轻量化 C2。
+<p align="center"> 由纯 Rust 实现的轻量化 C2。 </p>
 
-# 优势
+<p align="center"> 中文文档 | <a href="README.en.md">English</a> </p>
+
+# 🚀 上手指南
+
+📢 请务必花一点时间阅读此文档，有助于你快速熟悉JYso！
+
+🧐 使用文档[Wiki](https://github.com/Qi4l-Labs/Fusion/wiki)。
+
+✔ 下载最新版本的[Releases](https://github.com/Qi4l-Labs/Fusion/releases)。
+
+# 👍 优势
 
 现在的C2都乱七八糟的塞进去一大堆不一定会用得到，甚至不一定会有用的功能，
 
@@ -10,16 +20,7 @@
 
 完全不需要在塞入乱七八糟的功能，这就是本项目诞生的原因，极轻量化，化繁为简。
 
-[更详细的说明]()
-
-# GUI版本预览
-
-目前仍以命令行为主，GUI正在优化中，敬请期待！
-
-![](assets/1.png)
-![](assets/2.png)
-![](assets/3.png)
-![](assets/4.png)
+[更详细的说明](https://github.com/Qi4l-Labs/Fusion/wiki/%E4%BC%98%E5%8A%BF)
 
 # Contributors
 
