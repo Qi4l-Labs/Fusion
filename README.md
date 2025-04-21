@@ -20,8 +20,6 @@
 
 完全不需要在塞入乱七八糟的功能，这就是本项目诞生的原因，极轻量化，化繁为简。
 
-[更详细的说明](https://github.com/Qi4l-Labs/Fusion/wiki/%E4%BC%98%E5%8A%BF)
-
 # Contributors
 
 <a href="https://github.com/Qi4l-Labs/Fusion/graphs/contributors">
