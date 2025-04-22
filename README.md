@@ -6,7 +6,7 @@
 
 # 🚀 上手指南
 
-📢 请务必花一点时间阅读此文档，有助于你快速熟悉JYso！
+📢 请务必花一点时间阅读此文档，有助于你快速熟悉Fusion！
 
 🧐 使用文档[Wiki](https://github.com/Qi4l-Labs/Fusion/wiki)。
 
