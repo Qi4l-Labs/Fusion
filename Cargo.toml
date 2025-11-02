@@ -1,0 +1,43 @@
+[package]
+name = "Fusion-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm-siv = "0.11.1"
+tokio = { version = "1.41.1", features = ["full"] }
+axum = { version = "0.7.2", features = ["ws"] }
+axum-extra = { version = "0.9.0", features = ["typed-header"] }
+chrono = "0.4.31"
+clap = { version = "4.4.8", features = ["derive"] }
+colored = "2.1.0"
+data-encoding = "2.5.0"
+env_logger = "0.10.1"
+futures = "0.3"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+headers = "0.4"
+home = "0.5.9"
+hyper = { version = "1.0", features = [] }
+hyper-util = { version = "0.1", features = ["tokio", "server-auto", "http1"] }
+log = "0.4.20"
+rand = "0.8.5"
+rcgen = { version = "0.12.0", features = ["pem", "x509-parser"] }
+rustls = "0.22.1"
+rustls-pemfile = "2.0.0"
+rusqlite = { version = "0.30.0", features = ["bundled", "chrono"] }
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+shellwords = "1.1.0"
+time = "0.3.36"
+tower = { version = "0.4", features = ["util"] }
+tower-http = { version = "0.5.0", features = ["add-extension", "fs", "trace", "timeout"] }
+tokio-rustls = "0.25.0"
+tower-service = "0.3.2"
+url = "2.5.0"
+x25519-dalek = { version = "2.0.0", features = ["static_secrets"] }
+
+[build-dependencies]
+
+[features]
+default = ["with-file-history"]
+with-file-history = []
