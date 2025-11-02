@@ -1,0 +1,10 @@
+#V2
+agent list
+listener start 1
+listener list
+agent list
+agent use 1
+shell dir
+agent list
+agent use 1
+shell dir

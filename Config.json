@@ -1,0 +1,13 @@
+{
+  "server-config": {
+    "username": "qi4l",
+    "fusion-host": "127.0.0.1",
+    "fusion-port": "9000",
+    "websocket-url": "/fusion",
+    "x-bili-trace-id": "zMDiIUFO2PMEQCfzKmnYDcLN4N5vXlcz"
+  },
+
+  "http-config" : {
+
+  }
+}

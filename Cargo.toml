@@ -1,0 +1,32 @@
+[package]
+name = "Fusion-client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.41.1", features = ["full"] }
+chrono = "0.4.31"
+clap = { version = "4.4.8", features = ["derive"] }
+colored = "2.1.0"
+env_logger = "0.10.1"
+futures = "0.3"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+home = "0.5.9"
+log = "0.4.20"
+rand = "0.8.5"
+rustyline = { version = "15.0.0" }
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+shellwords = "1.1.0"
+spinners = "4.1.1"
+tokio-tungstenite = "0.20"
+rustyline-derive = { path = "src/client/rustyline-derive" }
+flate2 = "1.0.35"
+base64 = "0.21.5"
+encoding_rs = "0.8.33"
+
+[build-dependencies]
+
+[features]
+default = ["with-file-history"]
+with-file-history = []
