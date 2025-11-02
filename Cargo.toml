@@ -1,0 +1,58 @@
+[package]
+name = "implants"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "implant"
+path = "src/main.rs"
+
+
+[dependencies]
+aes-gcm-siv = "0.11.1"
+data-encoding = "2.5.0"
+rand = "0.8.5"
+regex = "1.10.2"
+screenshots = "0.8.6"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+shellwords = "1.1.0"
+tokio = { version = "1", features = ["full"] }
+x25519-dalek = { version = "2.0.0", features = ["static_secrets"] }
+reqwest = { version = "0.12", features = ["json", "rustls-tls"] }
+windows-core = "0.52.0"
+mac_address = "*"
+uuid = { version = "1.7.0", features = ["v5"] }
+chrono = "0.4.39"
+flate2 = "1.1.0"
+base64 = "0.22.1"
+encoding_rs = "0.8.35"
+
+
+[target.'cfg(target_os = "linux")'.dependencies]
+
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winreg = "0.52.0"
+windows = { version = "0.58.0", features = [
+    "Wdk",
+    "Wdk_Storage",
+    "Wdk_Storage_FileSystem",
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_Networking_WinHttp",
+    "Win32_Networking_WinSock",
+    "Win32_NetworkManagement_IpHelper",
+    "Win32_NetworkManagement_Ndis",
+    "Win32_Security_Authentication_Identity",
+    "Win32_Security_Cryptography",
+    "Win32_Storage_FileSystem",
+    "Win32_System_Com",
+    "Win32_System_IO",
+    "Win32_System_Memory",
+    "Win32_System_Pipes",
+    "Win32_System_Threading",
+    "Win32_System_SystemInformation",
+    "Win32_UI_WindowsAndMessaging",
+] }
